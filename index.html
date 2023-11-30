@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="div1">
+        <p id="firstNumber">猜一個數字</p>
+        <div class="div2">
+            <h1>1~100</h1>
+        </div>
+        <div class="div3">
+            <input type="number" type="number" id="guessNumber"  placeholder="輸入數字">
+        </div>
+        <div class="div4">
+            <button onclick="checkGuess()">回答</button>
+            <p id="message"></p>
+        </div>
+        <div class="div5">
+            <button onclick="resetGame()">重置</button>
+        </div>
+        <div class="div6">
+            <p id="rightMessage">你還有 5 次機會</p>
+        </div>
+    </div>
+
+
+
+    <script src="./pra.js"></script>
+</body>
+</html>

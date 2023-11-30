@@ -1,0 +1,67 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(134, 134, 134);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .div1 {
+  width: 302px;
+  height: 338px;
+  background-color: white;
+  font-size: 16px;
+  position: relative;
+}
+body .div1 p {
+  position: absolute;
+  top: 5%;
+  left: 37%;
+}
+body .div1 .div2 {
+  width: 211px;
+  height: 48px;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+body .div1 .div2 h1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+body .div1 .div3 {
+  width: 302px;
+  height: 338px;
+  position: absolute;
+  top: 50%;
+  left: 26%;
+}
+body .div1 .div4 {
+  width: 82px;
+  height: 30px;
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  border: 0;
+  cursor: pointer;
+}
+body .div1 .div5 {
+  width: 82px;
+  height: 30px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+}
+body .div1 .div6 {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 80%;
+  right: 8%;
+}
+body .div1 .div6 P {
+  display: flex;
+  font-size: 16px;
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */
